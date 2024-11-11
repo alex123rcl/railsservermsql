@@ -15,7 +15,7 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
 
 group :development, :test do
-  gem 'rspec-rails', '~> 7.0.0'  # Elige esta línea y elimina la otra
+  gem 'rspec-rails', '~> 7.1.0'  # Elige esta línea y elimina la otra
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
   gem "brakeman", require: false
   gem "rubocop-rails-omakase", require: false
